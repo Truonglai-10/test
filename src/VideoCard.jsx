@@ -10,7 +10,7 @@ function VideoCard({ image, title, channel, views, timestamp, channelImage }) {
         <img className="videoCard_thumbnail" src={image} alt="" />
       </div>
       <div className="videoCard_show">
-        <div className="videoCard_info">
+        <div>
           <Avatar
             className="videoCard_avatar"
             src={channelImage}
