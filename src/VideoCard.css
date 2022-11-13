@@ -17,11 +17,11 @@
     flex-wrap: wrap;
 }
 
-.videoCard_info
+.videoCard_show
 {
     display: flex;
     margin-top: 10px;
-    padding-right: 30px;
+    padding-right: 12px;
 }
 
 .videoCard_text

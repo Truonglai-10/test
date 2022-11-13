@@ -2,6 +2,8 @@ import React from 'react'
 import VideoCard from './VideoCard'
 import './RecommendedVideos.css'
 
+// Ở function này thay vì viết ra hard code như này thì nên tách từng cái prop ra thành 1 array object xong map vào sẽ dễ nhìn hơn
+
 function RecommendedVideos() {
   return (
     <div className="recommendedVideos">

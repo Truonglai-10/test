@@ -15,10 +15,10 @@ function App() {
   return (
     <div className="App">
     <Router>
-      <Header/>
 
       <Switch>
         <Route path="/search/:searchTerm">
+          <Header/>
           <div className="app_page">
             <Sidebar/>
             <SearchPage />
@@ -33,9 +33,6 @@ function App() {
         </Route>
       </Switch>
     </Router>
-
-      
-      
 
     </div>
   )
